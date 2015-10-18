@@ -1,0 +1,35 @@
+sudo: required
+dist: trusty
+branches:
+    only:
+        - master
+env:
+    global:
+        - secure: "TsbS/Soj0+JgfknIR11xkqp8gocQfnrMRV9DRv70V8LIxo0SOyg1WSsm31T3/YPpA8wM+043cbU4bp3kEvHo0b4TP0ttmrOm71Oe21oUgbO8UOvv+1O4bEsJQ0cbGgmDNHHL3iR1X7xMobjuC7PZnaDnuG04LeBzXp0Udz19k0kPhn7nqBeAdoxzSdvMJRtQ3l960h5xpukzi+GgK0EZ9sHPTgqer8/9XaEGTkmL6wIxRU6rgaU3sYCS0l4Lq0M3qypYtt7cQxrSx4B1Qn3jS/TlmFNUPYVh/xwW/QmbcTDb1ytGO1dVeK6kzbvUbYWnOIevXgpiW5O9e+sZDizBev3ym9pODEt47i1YwU96uYwFTtf/nbyNxyWZbfrihtL++sAsnsrK2U31zuu/ci1vVucSQYVvWaBpcHaK42DD0wEtYzYzaaHxMVVc+JqFeCqD3KKEmvgu/tL6qVKoyyD0FWmu+1Uyap0jdpOSLNIzc+t5LWpraD/PKYpYpWtFXmG6UzldfutwiQMfwxH5nCHskeiHVBIyIwzZ/NM/Hfz73B8mVr9uslrTUhdMGZxvTgDI5+9g3gc4zhAArKEQtZ/rajcqtgcPa25+KL2PWPk6hXUbVgzdcGoqD+dbD1h4Q6bfYGByWvh2sLfKx0yPPhw12jIlUaRcCw6ukOxnuc/zsI8="
+        - secure: "LzlMkbyU2LExurIsL6fhJnS7McXmhi3vvS3Z/iobPPu0GAf2as9/9+FSOsjxFMELiIZWa/f/mDJBcZqECuM/d1MTJ7zSvuZxoIbJuCHMbGq1YCn77Hcp2JCeqkWa1sI1XSgWY24a8ss2EWmgqtpUddmD3j/os9nznbzA1XwdiUC1rJO8nPorqExv1NEpVG8YPBVTH0C06iykNOdD0gxtDLH+rOcl14wJooMT3PIfi1cFLGLCbh1bu3WKLZ7zXQNMW+qhQkGVmhDxIo+CbrhXxZT4VITRxui3ghOMI/yFYJw8iwP0xH3oEqV/1XRDQjowi9FirQH5En2UTUlUcO5hcskQ4bXAhwMiAZ6x+GCJT6ujRQV+jyij4QMDscSgweFubr/1HLSLnL2Zr/oNwRlfztCurJx3JIL/IPfVI3mjuECz3VIWJCAWqp9u1+9e+MrUvIOdeIRdd9uG+cOoa8o3EvO3/WM2kfLn11eHjv7C5DJWsZqmtwhL+ngMwB5E6yH8g/OST/Pa8GSmlljxSjhtRE94mySBUd9lmB5IVXIxgskDNhhM6H2osNtS4fCKujsGpngUCqxrMVAT/xx0QqbwkSgypEAxradvA7AceSbOSuu8LvSypM7g1C2fXErJZE31BI4vSFRkHwf1pOJLk+b9dtzN6r3rq0aFy0GTPFK0qjU="
+        - secure: "rSoVIKPWljtJFyJT+ZmlZUZmvVw+gOFDFyIrQsaVZpkBXCwaAoU0VBFNEKj5XBXM42bmz+505TId0v8gwfOIBr1RX9nZbliXo8If0qW1UrhBZCaTR0TxN75kPrn4UvZEQaDJpgbAuN9ytVX0e8+wkIq/HGv/lD8NaO//um2mSNZYtJ7U0EkWgAkZF6XnzprOEpLIYFaa5SSmHjp2n8IUza0qNXmtNJGOQm5gXsmvgZ/k871BXICYqlVZN1UfrriGkbIsJRk3hK1CyOxDcT+YA4nsVmOJhusQyGs67try6WBTvctLFdTChA1jLir1lengtwsnwFJhzPA1HOvq5M3fj9nRntVwhYVitJqbz5JM/Elmh98j8FPdEXKwmJIOK5dJlRc+pnOuflw+WFZq7Ss8z4OOixqaK57jazIb1E5sZMkPQpuSTtHIZ2HtpkunKlu4h/ug+MaA5twmVV3UbVmTrpFDAgcE6nIvUC1PkqrECMOYdlQAxWSu4pjna0kGf0l6MlPwKieHoqGiLIPaPE+lKTqdUaE5LeLu5HJJwiiFDcbMMzRYZIEdo7fR4hxDF93Jsu6brZo39eTMDpaQI7oU8wU5uf9Wt7c+b2AddiQQZbhQ06KZL0+mwtiKSJOUH5z8xkQdyVb4Xk+v3BAXJ/HtIzI9HthHxqCn4WiDzE1vcVY="
+        - secure: "Dhsz07qlWZSLStvQ6srP23wWc2uKbFZPZDeNM7pOTLSsi/t44yg+4qNQ4YKDOrKeWJSB7f2qtaXxraFB/IancllyT/sxQ+ZI+KX10LEPfB8l3Q5cl1wW77lonc9yMEUbtMSIV8dNKf5J5gvgfH0ba54C2spIlScPxvEW2S4WWr4P34uSIzmuU2XnYOS/b7bYFbBQoEz8UkCn5L3L0SshMujjrcwnn9JMtAPslItjWA+fdSEpruUbVIlM8/ZvRfG/PW9Nh2XRBN2Vo4T4WjH4gMTQgSh5rIHkM/jDl9ARfkPFpymXGBaV9Fg90OH3sijGqhkRAR+JFVqhdyz30s76GOhfpZU79COvjK0guv9U0/OJThbCGcvMn2Zb3enukJjkblmS1z3y+yrLnesv+l/qiNuTRlE2aTJOsjEo4crUqdv3esr/ONL4l1NlaUrxlYUv2vKQsrem1oaDRI4e3xcPI/iZ4iJpBGwKrFe81X816SQo0IurPiIeBbie2nzTZ6b9FO/MRP6WQkvUoY2rBtQ6UpZ9w5YBxg15jA2HLwjuS8vjNAPln0imj0ByoJJGj9AGE9ff18zcFNjC2j0XMvD+4euzYcQcK7ppM2G/4XRNi4uz1gZOB3mrmrHWnBXdoqsbUj4R+P/M6ji5MM10xa70DOUTp1hyZYgYX2QPc+XJmtI="
+language: c
+os:
+    - linux
+    - osx
+before_install:
+    - export SHORTREV=$(git rev-parse --short HEAD)
+    - echo "ezQuake development build $SHORTREV" > README.txt
+    - echo "Please notice that this build is still in alpha so expect various problems." >> README.txt
+    - echo 'Report any bugs at https://github.com/ezQuake/ezquake-source/issues or on IRC (#ezquake on quakenet)' >> README.txt
+    - export ARCHIVE_NAME=$(date +"%F")-$SHORTREV-ezquake.7z
+    - if [ x$TRAVIS_OS_NAME == xlinux ]; then sudo apt-get -qq update; fi
+    - if [ x$TRAVIS_OS_NAME == xosx ]; then brew update; fi
+    - if [ x$TRAVIS_OS_NAME == xlinux ]; then export DEPLOY_PATH=$DEPLOY_PATH/win32/; export EZQUAKE_FNAME=ezquake-$SHORTREV.exe; fi
+    - if [ x$TRAVIS_OS_NAME == xosx ]; then export DEPLOY_PATH=$DEPLOY_PATH/osx/; export EZQUAKE_FNAME=ezQuake-$SHORTREV.app; fi
+install:
+    - if [ x$TRAVIS_OS_NAME == xlinux ]; then sudo apt-get install -y mingw-w64 p7zip-full sshpass; fi
+    - if [ x$TRAVIS_OS_NAME == xosx ]; then brew install sdl2 sdl2_net sdl2_image sdl2_gfx sdl2_mixer pcre jansson p7zip http://git.io/sshpass.rb; fi
+script:
+    - if [ x$TRAVIS_OS_NAME == xlinux ]; then EZ_CONFIG_FILE=.config_windows make; fi
+    - if [ x$TRAVIS_OS_NAME == xosx ]; then make && sh misc/install/create_osx_bundle.sh; fi
+after_script:
+    - if [ x$TRAVIS_OS_NAME == xlinux ]; then mv ezquake.exe $EZQUAKE_FNAME; fi
+    - if [ x$TRAVIS_OS_NAME == xosx ]; then mv ezQuake.app $EZQUAKE_FNAME; fi
+    - 7z a $ARCHIVE_NAME $EZQUAKE_FNAME README.txt && SSHPASS=$DEPLOY_PASS sshpass -e scp -o stricthostkeychecking=no $ARCHIVE_NAME $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH &> /dev/null
